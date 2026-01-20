@@ -1,0 +1,135 @@
+.content{
+    /* background-color: cadetblue; */
+    /* height: 1050px; */
+    width: 100%;
+    display: flex;
+}
+
+.side{
+    width: 15%;
+    background-color: rgb(246, 242, 242);
+}
+
+.side h3{
+    margin-left: 10px;
+}
+.category input{
+    margin: 5px 15px;
+}
+
+.prod{
+    margin-left: 10px;
+}
+
+.prod select{
+    margin-left: 20px;
+}
+
+.range{
+    margin-left: 10px;
+}
+
+.range input{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 90%;
+    height: 5px;
+    background-color: black;
+    outline: none;
+    border-radius: 5px;
+    accent-color: grey;
+}
+
+@media screen and (max-width: 840px) {
+    .side{
+        display: none;
+    }
+}
+
+.products{
+    /* background-color: darkolivegreen; */
+    width: 85%;
+    margin: 5px 10px;
+}
+
+.items{
+    /* background-color: green; */
+    height: fit-content;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.items .item{
+    /* background-color: greenyellow; */
+    height: 300px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition-duration: 0.2s;
+}
+
+.items .desc{
+    font-size: 0.8rem;
+    line-height: 8px;
+    /* background-color: brown; */
+    transition-duration: 0.3s;
+}
+
+.items .desc:hover{
+    color: rgb(69, 69, 69);
+    cursor: pointer;
+}
+
+.items .item:hover{
+    background-color: rgb(227, 226, 226);
+    /* border-radius: 10px; */
+    cursor: pointer;
+}
+
+.items img{
+    height: 80%;
+    width: 80%;
+    margin: 3px 0px;
+    transition-duration: 0.3s;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.item a{
+    font-size: 0.8rem;
+    line-height: 15px;
+    /* background-color: brown; */
+    transition-duration: 0.1s;
+    text-decoration: none;
+    color: black;
+}
+
+.item a:hover{
+    color: rgb(69, 69, 69);
+    cursor: pointer;
+}
+
+.media{
+    background-color: lightgray;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0px;
+}
+
+.media div{
+    margin: 20px 50px;
+}
+
+.media i{
+    transition-duration: 0.3s;
+}
+
+.media i:hover{
+    color: rgb(69, 69, 69);
+    cursor: pointer;
+}
