@@ -1,11 +1,12 @@
 body{
     display: flex;
     margin: 0px;
+    /* background-color: grey; */
+    /* justify-content: center; */
 }
 
 .logo{
-    background-color: darkgrey;
-    /* background-color: #E09540; */
+    background-color: darkgrey; 
     width: 30%;
     height: 100vh;
     display: flex;
@@ -16,13 +17,13 @@ body{
 .logo a{
     text-decoration: none;
     color: black;
-}
+} 
 
 .sign{
-    background-color: grey;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    background-color: grey;
     flex: 1;
 }
 
@@ -34,7 +35,7 @@ body{
     background-color: rgba(211, 211, 211, 0.8);
     box-shadow: 2px 2px 5px black;
     border: 2px solid grey;
-    height: 70%;
+    height: 70vh;
     border-radius: 20px;
     padding: 10px;
 }
